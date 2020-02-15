@@ -1,5 +1,11 @@
+@font-face {
+  font-family: mitipo;
+  src: url(../font/AlexandriaFLF.woff);
+}
+
 body {
   margin: 0;
+  font-family: mitipo;
 }
 
 nav {
@@ -54,6 +60,23 @@ nav {
   width: 400px;
   display: inline-block;
   vertical-align: top;
+}
+
+.dos_col .col_right ul {
+  padding: 0px;
+}
+
+.dos_col .col_right a {
+  color: #333333;
+}
+
+.dos_col .col_right a:hover {
+  text-decoration: none;
+}
+
+.dos_col .col_right li {
+  list-style: none;
+  margin-bottom: 10px;
 }
 
 .tres_col {
